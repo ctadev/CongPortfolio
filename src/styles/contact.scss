@@ -1,0 +1,122 @@
+.contact-container {
+  background: #202a3c;
+  .inner-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 0 2rem;
+    padding-top: 3rem;
+    .socials {
+      .title {
+        display: flex;
+        flex-direction: column;
+        h1 {
+          color: white;
+          font-size: 2rem;
+          font-family: "Luxurious Roman", cursive;
+        }
+        span {
+          margin-top: 1rem;
+          display: block;
+          height: 2px;
+          background: white;
+        }
+      }
+      .icons {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        section {
+          a {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            color: white;
+            text-decoration: none;
+            p {
+              font-size: 1.3rem;
+            }
+            i {
+              font-size: 2rem;
+            }
+          }
+        }
+      }
+    }
+
+    .email {
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding-bottom: 5rem;
+        margin-top: 2rem;
+        h1 {
+          color: white;
+          font-size: 3rem;
+        }
+        input {
+          height: 2.5rem;
+          border-radius: 5px;
+          background: transparent;
+          color: white;
+          padding: 1rem;
+          font-size: 1.1rem;
+          width: 80%;
+          border: none;
+          outline: solid 1px #fcfcfc;
+        }
+        textarea {
+          height: 7rem;
+          border-radius: 5px;
+          background: transparent;
+          border: none;
+          color: white;
+          padding: 1rem;
+          font-size: 1.1rem;
+          width: 80%;
+          outline:solid 1px #fcfcfc;
+        }
+        button {
+          height: 2.5rem;
+          width: 6rem;
+          margin-top: 1rem;
+          border: 1px solid cyan;
+          padding: 0.5rem 1rem;
+          border-radius: 5px;
+          color: cyan;
+          font-size: 1rem;
+          background: transparent;
+          &:hover {
+            cursor: pointer;
+            background: rgba(71, 70, 70, 0.568);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .contact-container {
+    .inner-container {
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 10rem;
+      padding: 0;
+      .email {
+        margin-top: 3rem;
+        form {
+          input {
+            width: 22rem;
+          }
+          textarea{
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

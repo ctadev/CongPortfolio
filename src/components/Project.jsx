@@ -1,0 +1,121 @@
+import React from "react";
+
+function Project() {
+  return (
+    <main className="project-container" id="project">
+      <section className="inner-container">
+        <div className="title">
+          <h1>Projects</h1>
+          <span></span>
+        </div>
+        <div className="projects">
+          <div className="project-card">
+            <h1>Games Search</h1>
+            <div className="project-info">
+              <p>
+                This website let you search any game available on the rawg.io
+                API database. It also has an add to favourite feature that will
+                be saved on the user localStorage.
+              </p>
+            </div>
+            <ul>
+              <li>React</li>
+              <li>Sass</li>
+              <li>Redux</li>
+              <li>RawgAPI</li>
+            </ul>
+            <div className="icons">
+              <a
+                href="https://github.com/ctadev/CongGameLibrary"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i className="fab fa-github-square"></i>
+              </a>
+              <a
+                href="https://determined-kepler-e4d3df.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i className="fab fa-chrome"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="projects second">
+          <div className="project-card">
+            <h1>Starbucks Clone</h1>
+            <div className="project-info">
+              <p>
+                This is my attempt at cloning starbucks website to practice my
+                frontend web development skill using with just react and sass.
+              </p>
+            </div>
+            <ul>
+              <li>React</li>
+              <li>Sass</li>
+            </ul>
+            <div className="icons">
+              <a
+                href="https://github.com/ctadev"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i className="fab fa-github-square"></i>
+              </a>
+              <a
+                href="https://www.starbucks.ca/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i className="fab fa-chrome"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="projects third">
+          <div className="project-card">
+            <h1>Shopiies Ecommerces</h1>
+            <div className="project-info">
+              <p>
+                An e-commerces site that will let you shop online with a modal
+                cart feature, rest api to display list of products and
+                localStorage database for the cart to persist on users website.
+              </p>
+            </div>
+            <ul>
+              <li>React</li>
+              <li>Sass</li>
+              <li>Redux</li>
+              <li>REST-API</li>
+            </ul>
+            <div className="icons">
+              <a
+                href="https://github.com/ctadev/CongEcommerce"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i className="fab fa-github-square"></i>
+              </a>
+              <a
+                href="https://affectionate-volhard-f08dd4.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i className="fab fa-chrome"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="more">
+          <h2>View More Projects...</h2>
+        </div>
+      </section>
+    </main>
+  );
+}
+
+export default Project;

@@ -1,0 +1,213 @@
+.project-container {
+  z-index: 3;
+  background: #181f2a;
+  .inner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 3rem;
+    .title {
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 3rem;
+      width: 85%;
+      padding-top: 10rem;
+      h1 {
+        color: white;
+        font-size: 3rem;
+        font-family: "Luxurious Roman", cursive;
+      }
+      span {
+        margin-top: 1rem;
+        display: block;
+        height: 2px;
+        background: white;
+      }
+    }
+
+    .projects {
+      background: linear-gradient(rgba(0, 0, 0, 0.741), rgba(0, 0, 0, 0.745)),
+        url("../img/games.png") center / cover no-repeat;
+      width: 80%;
+      height: 450px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      border-radius: 10px;
+      &:hover {
+        transition: 0.5s ease;
+        transform: scale(1.1);
+      }
+      .project-card {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        h1 {
+          font-family: "Luxurious Roman", cursive;
+          font-size: 2rem;
+          text-align: center;
+        }
+        .project-info {
+          border: cyan 1px solid;
+          border-radius: 5px;
+          width: 80%;
+          background: rgba(61, 60, 60, 0.767);
+          p {
+            padding: 1rem;
+            font-size: 1.1rem;
+            font-family: "Montserrat", sans-serif;
+          }
+        }
+        ul {
+          display: flex;
+          gap: 1rem;
+          li {
+            list-style: none;
+            font-size: 1.2rem;
+          }
+        }
+        .icons {
+          margin-bottom: 1rem;
+          display: flex;
+          gap: 1rem;
+          a {
+            text-decoration: none;
+            color: white;
+            i {
+              font-size: 2rem;
+              &:hover {
+                cursor: pointer;
+                color: cyan;
+              }
+            }
+          }
+        }
+      }
+    }
+    .projects.second {
+      background: linear-gradient(rgba(0, 0, 0, 0.741), rgba(0, 0, 0, 0.745)),
+        url("../img/starbucks.png") center / cover no-repeat;
+    }
+    .projects.third {
+      background: linear-gradient(rgba(0, 0, 0, 0.741), rgba(0, 0, 0, 0.745)),
+        url("../img/ecomms.png") center / cover no-repeat;
+    }
+    .more {
+      margin-top: 1rem;
+      margin-bottom: 5rem;
+      h2 {
+        color: white;
+        font-family: "Luxurious Roman", cursive;
+        &:hover {
+          cursor: pointer;
+          color: cyan;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .project-container {
+    .inner-container {
+      min-height: 100vh;
+      padding: 0;
+      .title {
+        align-items: center;
+        width: 90%;
+        flex-direction: row;
+        span {
+          width: 20%;
+          margin-left: 1rem;
+        }
+      }
+      .projects {
+        width: 90%;
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+          url("../img/games.png") center / contain no-repeat;
+        width: 555px;
+        height: 400px;
+        margin-right: 10rem;
+        position: relative;
+        .project-card {
+          position: absolute;
+          bottom: 0;
+          right: -100%;
+          .project-info {
+            width: 25%;
+          }
+        }
+      }
+      .projects.second {
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+          url("../img/starbucks.png") center / cover no-repeat;
+        margin-right: -10rem;
+        .project-card {
+          left: -200%;
+          .project-info {
+            width: 13%;
+          }
+        }
+      }
+      .projects.third {
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+          url("../img/ecomms.png") center / cover no-repeat;
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .project-container {
+    .inner-container {
+      .projects {
+        width: 90%;
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+          url("../img/games.png") center / contain no-repeat;
+        height: 400px;
+        width: 555px;
+        margin-right: 25rem;
+        position: relative;
+        .project-card {
+          position: absolute;
+          bottom: 0;
+          right: -150%;
+          .project-info {
+            width: 35%;
+          }
+        }
+      }
+      .projects.second {
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+          url("../img/starbucks.png") center / cover no-repeat;
+        margin-right: -25rem;
+        .project-card {
+          left: -305%;
+          .project-info {
+            width: 15%;
+          }
+        }
+      }
+      .projects.third {
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+          url("../img/ecomms.png") center / cover no-repeat;
+      }
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+  .project-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .inner-container {
+      width: 1440px;
+    }
+  }
+}
