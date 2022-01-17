@@ -12,9 +12,8 @@
     .title {
       display: flex;
       flex-direction: column;
-      padding-bottom: 3rem;
       width: 85%;
-      padding-top: 10rem;
+      padding-top: 4rem;
       h1 {
         color: white;
         font-size: 3rem;
@@ -31,8 +30,8 @@
     .projects {
       background: linear-gradient(rgba(0, 0, 0, 0.741), rgba(0, 0, 0, 0.745)),
         url("../img/games.png") center / cover no-repeat;
-      width: 80%;
-      height: 450px;
+      width: 90%;
+      height: 500px;
       display: flex;
       justify-content: flex-end;
       align-items: flex-end;
@@ -66,6 +65,9 @@
         }
         ul {
           display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          justify-content: center;
           gap: 1rem;
           li {
             list-style: none;
@@ -113,6 +115,17 @@
   }
 }
 
+@media (min-width: 380px) {
+  .project-container{
+    .inner-container{
+      .projects{
+        height: 400px;
+        width: 80%;
+      }
+    }
+  }
+}
+
 @media (min-width: 768px) {
   .project-container {
     .inner-container {
@@ -122,6 +135,7 @@
         align-items: center;
         width: 90%;
         flex-direction: row;
+        padding-top: 8rem;
         span {
           width: 20%;
           margin-left: 1rem;
