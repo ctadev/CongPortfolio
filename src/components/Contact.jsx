@@ -14,14 +14,6 @@ function Contact() {
   } = useForm();
 
   const OnSubmit = () => {
-    toast.success(
-      "Thank you for contacting me, I will get back to you in 24hours",
-      {
-        position: "bottom-right",
-        autoClose: 5000,
-      }
-    );
-
     emailjs
       .sendForm(
         "service_82yeark",
@@ -32,12 +24,21 @@ function Contact() {
       .then(
         (result) => {
           console.log(result.text);
-          reset();
         },
         (error) => {
           console.log(error.text);
         }
       );
+
+    reset();
+
+    toast.success(
+      "Thank you for contacting me, I will get back to you in 24hours",
+      {
+        position: "bottom-right",
+        autoClose: 5000,
+      }
+    );
   };
   return (
     <main className="contact-container" id="contact">
