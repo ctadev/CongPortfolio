@@ -1,21 +1,22 @@
-import './styles/app.scss'
-import Nav from './components/Nav';
-import Hero from './components/Hero';
-import About from './components/About';
-import Project from './components/Project';
-import Contact from './components/Contact';
-import { ToastContainer } from 'react-toastify'
-import "react-toastify/dist/ReactToastify.css"
+import "./styles/app.scss";
+import Home from "./components/Home";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import AllProject from "./components/AllProject";
+import ScrollToTop from "./components/scrollTop";
 
 function App() {
   return (
     <div className="App">
-      <ToastContainer />
-      <Nav />
-      <Hero />
-      <About />
-      <Project />
-      <Contact />
+      <Router>
+        <ToastContainer />
+        <ScrollToTop />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<AllProject />} />
+        </Routes>
+      </Router>
     </div>
   );
 }

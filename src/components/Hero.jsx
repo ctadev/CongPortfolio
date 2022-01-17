@@ -13,13 +13,19 @@ function Hero() {
             Frontend web developer who specialized in building beautiful and
             responsive web applications.
           </p>
-          <button>Resume</button>
+          <a
+            href="https://docs.google.com/document/d/1yQXkfRsHRm6XBuoPG0Ota3d23bFp3VxFpMe5XvHBEP8"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button>Resume</button>
+          </a>
           <a href="#project">
             <button className="project-btn">Projects</button>
           </a>
         </div>
         <div className="hero-img">
-          <img src={hero} alt="a boy"/>
+          <img src={hero} alt="a boy" />
         </div>
       </section>
     </main>

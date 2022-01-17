@@ -22,7 +22,11 @@ function Nav() {
           <a href="#contact">
             <h2 className="contact">Contacts</h2>
           </a>
-          <a href="#resume">
+          <a
+            href="https://docs.google.com/document/d/1yQXkfRsHRm6XBuoPG0Ota3d23bFp3VxFpMe5XvHBEP8"
+            target="_blank"
+            rel="noreferrer"
+          >
             <h2 className="resume">Resume</h2>
           </a>
         </section>

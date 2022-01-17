@@ -1,6 +1,13 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 function Project() {
+  const navigate = useNavigate();
+  const viewProjects = () => {
+    navigate("/projects");
+  };
+
+
   return (
     <main className="project-container" id="project">
       <section className="inner-container">
@@ -33,7 +40,7 @@ function Project() {
                 <i className="fab fa-github-square"></i>
               </a>
               <a
-                href="https://determined-kepler-e4d3df.netlify.app/"
+                href="https://cong-game-library.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -58,14 +65,14 @@ function Project() {
             </ul>
             <div className="icons">
               <a
-                href="https://github.com/ctadev"
+                href="https://github.com/ctadev/CongStarbucks"
                 target="_blank"
                 rel="noreferrer"
               >
                 <i className="fab fa-github-square"></i>
               </a>
               <a
-                href="https://www.starbucks.ca/"
+                href="https://cong-starbucks.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -100,7 +107,7 @@ function Project() {
                 <i className="fab fa-github-square"></i>
               </a>
               <a
-                href="https://affectionate-volhard-f08dd4.netlify.app/"
+                href="https://cong-ecommerce.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -111,7 +118,7 @@ function Project() {
         </div>
 
         <div className="more">
-          <h2>View More Projects...</h2>
+          <h2 onClick={() => viewProjects()}>View More Projects...</h2>
         </div>
       </section>
     </main>

@@ -1,0 +1,115 @@
+.allproject-container {
+  background: #181f2a;
+  .inner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+    position: relative;
+    button {
+      margin-bottom: 1rem;
+      height: 2rem;
+      padding: 5px;
+      width: 7rem;
+      border-radius: 10px;
+      border: none;
+      background: #46649b;
+      color: white;
+      &:hover {
+        color: cyan;
+        cursor: pointer;
+        background: #314874;
+      }
+    }
+    h1 {
+      color: white;
+      font-family: "Luxurious Roman", cursive;
+    }
+    .card-container {
+      margin-top: 3rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 3rem;
+      .cards {
+        height: 100%;
+        width: 90%;
+        background: #202a3c;
+        img {
+          width: 100%;
+        }
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        .info-container {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          gap: 0.5rem;
+          padding-bottom: 1rem;
+          color: white;
+          h2 {
+            font-family: "Luxurious Roman", cursive;
+          }
+          p {
+            text-align: center;
+            font-family: "Montserrat", sans-serif;
+            width: 90%;
+          }
+          div {
+            a {
+              margin: 0 0.5rem;
+              text-decoration: none;
+              color: white;
+              &:hover {
+                color: cyan;
+              }
+              i {
+                font-size: 1.5rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .allproject-container {
+    .inner-container {
+      position: relative;
+      button {
+        position: absolute;
+        left: 2%;
+        top: 2%;
+      }
+      h1 {
+        font-size: 2rem;
+      }
+      .card-container {
+        .cards {
+          height: 420px;
+          width: 400px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+  .allproject-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .inner-container {
+      width: 1440px;
+    }
+  }
+}
