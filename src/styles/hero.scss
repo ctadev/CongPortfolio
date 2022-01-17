@@ -1,10 +1,12 @@
 .hero-container {
   background: #181f2a;
+  width: 100vw;
   .inner-container {
-    min-height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 8rem;
+    padding-bottom: 3rem;
     .hero-info {
       color: white;
       margin-bottom: 4rem;
