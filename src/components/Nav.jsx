@@ -14,20 +14,28 @@ function Nav() {
 
         <section className={toggle ? "nav-menu open" : "nav-menu"}>
           <a href="#about">
-            <h2 className="about">About</h2>
+            <h2 onClick={() => setToggle(!toggle)} className="about">
+              About
+            </h2>
           </a>
           <a href="#project">
-            <h2 className="project">Projects</h2>
+            <h2 onClick={() => setToggle(!toggle)} className="project">
+              Projects
+            </h2>
           </a>
           <a href="#contact">
-            <h2 className="contact">Contacts</h2>
+            <h2 onClick={() => setToggle(!toggle)} className="contact">
+              Contacts
+            </h2>
           </a>
           <a
             href="https://docs.google.com/document/d/1yQXkfRsHRm6XBuoPG0Ota3d23bFp3VxFpMe5XvHBEP8"
             target="_blank"
             rel="noreferrer"
           >
-            <h2 className="resume">Resume</h2>
+            <h2 onClick={() => setToggle(!toggle)} className="resume">
+              Resume
+            </h2>
           </a>
         </section>
 
