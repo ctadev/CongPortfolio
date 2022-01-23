@@ -93,7 +93,7 @@ function Contact() {
               })}
             />
             {errors.name && (
-              <span style={{ color: "red" }}>
+              <span style={{ color: "coral" }}>
                 Please enter your name and must be between 3-15 characters.
               </span>
             )}
@@ -109,7 +109,9 @@ function Contact() {
               })}
             />
             {errors.email && (
-              <span style={{ color: "red" }}>Please a valid email address</span>
+              <span style={{ color: "coral" }}>
+                Please enter a valid email address
+              </span>
             )}
             <textarea
               placeholder="Message"
@@ -117,7 +119,7 @@ function Contact() {
               {...register("message", { required: true })}
             />
             {errors.message && (
-              <span style={{ color: "red" }}>Please enter your message</span>
+              <span style={{ color: "coral" }}>Please enter your message</span>
             )}
             <button type="submit">Send</button>
           </form>
