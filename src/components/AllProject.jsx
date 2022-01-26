@@ -6,6 +6,7 @@ import music from "../img/music.png";
 import starbucks from "../img/starbucks.png";
 import weather from "../img/weather.png";
 import yonder from "../img/yonder.png";
+import netflix from '../img/netflix.png';
 import { useNavigate } from "react-router-dom";
 
 function AllProject() {
@@ -66,10 +67,18 @@ function AllProject() {
     {
       id: 7,
       title: "Yonder clone",
-      image: yonder,
+      image: netflix,
       desc: "A landing page clone challenge that I completed",
       link: "https://cong-travel-guide.vercel.app/",
       github: "https://github.com/ctadev/CongTravelGuide",
+    },
+    {
+      id: 8,
+      title: "Netflix Clone",
+      image: yonder,
+      desc: "A landing page clone challenge that I completed",
+      link: "https://cong-netflix-clone.vercel.app/",
+      github: "https://github.com/ctadev/CongNetflixClone",
     },
   ];
   return (
