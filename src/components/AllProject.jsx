@@ -78,7 +78,7 @@ function AllProject() {
       image: netflix,
       desc: "A landing page clone challenge that I completed",
       link: "https://cong-netflix-clone.vercel.app/",
-      github: "https://github.com/ctadev/CongNetflixClone",
+      github: "https://github.com/ctadev/CongNetflix",
     },
   ];
   return (
