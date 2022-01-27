@@ -67,7 +67,7 @@ function AllProject() {
     {
       id: 7,
       title: "Yonder clone",
-      image: netflix,
+      image: yonder,
       desc: "A landing page clone challenge that I completed",
       link: "https://cong-travel-guide.vercel.app/",
       github: "https://github.com/ctadev/CongTravelGuide",
@@ -75,7 +75,7 @@ function AllProject() {
     {
       id: 8,
       title: "Netflix Clone",
-      image: yonder,
+      image: netflix,
       desc: "A landing page clone challenge that I completed",
       link: "https://cong-netflix-clone.vercel.app/",
       github: "https://github.com/ctadev/CongNetflixClone",
