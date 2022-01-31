@@ -76,7 +76,7 @@ function AllProject() {
       id: 8,
       title: "Netflix Clone",
       image: netflix,
-      desc: "A landing page clone challenge that I completed",
+      desc: "My Netflix clone with authentication feature using firebase",
       link: "https://cong-netflix-clone.vercel.app/",
       github: "https://github.com/ctadev/CongNetflix",
     },
