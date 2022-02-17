@@ -52,27 +52,26 @@ function Project() {
 
         <div className="projects second">
           <div className="project-card">
-            <h1>Starbucks Clone</h1>
+            <h1>Disney Clone</h1>
             <div className="project-info">
               <p>
-                This is my attempt at cloning starbucks website to practice my
-                frontend web development skill using with just react and sass.
+                My Disney Clone created using Nextjs with SeverSideRendering and authentication
               </p>
             </div>
             <ul>
-              <li>React</li>
+              <li>NextJs</li>
               <li>Sass</li>
             </ul>
             <div className="icons">
               <a
-                href="https://github.com/ctadev/CongStarbucks"
+                href="https://github.com/ctadev/CongDisneyClone"
                 target="_blank"
                 rel="noreferrer"
               >
                 <i className="fab fa-github-square"></i>
               </a>
               <a
-                href="https://cong-starbucks.vercel.app/"
+                href="https://cong-disney-clone.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
               >

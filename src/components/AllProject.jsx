@@ -8,6 +8,7 @@ import weather from "../img/weather.png";
 import yonder from "../img/yonder.png";
 import netflix from '../img/netflix.png';
 import { useNavigate } from "react-router-dom";
+import disney from '../img/disneyClone.png'
 
 function AllProject() {
   const navigate = useNavigate();
@@ -76,9 +77,17 @@ function AllProject() {
       id: 8,
       title: "Netflix Clone",
       image: netflix,
-      desc: "A landing page clone challenge that I completed",
+      desc: "Netflix clone with login feature",
       link: "https://cong-netflix-clone.vercel.app/",
       github: "https://github.com/ctadev/CongNetflixClone",
+    },
+    {
+      id: 9,
+      title: "Disney Clone",
+      image: disney,
+      desc: "Disney clone with login and trailer feature",
+      link: "https://cong-disney-clone.vercel.app/",
+      github: "https://github.com/ctadev/CongDisneyClone",
     },
   ];
   return (
