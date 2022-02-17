@@ -77,9 +77,13 @@ function AllProject() {
       id: 8,
       title: "Netflix Clone",
       image: netflix,
+<<<<<<< HEAD
       desc: "Netflix clone with login feature",
+=======
+      desc: "My Netflix clone with authentication feature using firebase",
+>>>>>>> ec8d1d1561f15494a49d4c84672b4ecac963b960
       link: "https://cong-netflix-clone.vercel.app/",
-      github: "https://github.com/ctadev/CongNetflixClone",
+      github: "https://github.com/ctadev/CongNetflix",
     },
     {
       id: 9,
