@@ -6,9 +6,10 @@ import music from "../img/music.png";
 import starbucks from "../img/starbucks.png";
 import weather from "../img/weather.png";
 import yonder from "../img/yonder.png";
-import netflix from '../img/netflix.png';
+import netflix from "../img/netflix.png";
 import { useNavigate } from "react-router-dom";
-import disney from '../img/disneyClone.png'
+import disney from "../img/disneyClone.png";
+import twitter from "../img/twitter.png";
 
 function AllProject() {
   const navigate = useNavigate();
@@ -88,6 +89,14 @@ function AllProject() {
       desc: "Disney clone with login and trailer feature",
       link: "https://cong-disney-clone.vercel.app/",
       github: "https://github.com/ctadev/CongDisneyClone",
+    },
+    {
+      id: 10,
+      title: "Twitter Clone",
+      image: twitter,
+      desc: "Twitter Clone with Tweet feature using firebase database",
+      link: "https://cong-twitter.vercel.app/",
+      github: "https://github.com/ctadev/CongTwitter",
     },
   ];
   return (
