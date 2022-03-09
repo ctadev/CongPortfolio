@@ -10,6 +10,7 @@ import netflix from "../img/netflix.png";
 import { useNavigate } from "react-router-dom";
 import disney from "../img/disneyClone.png";
 import twitter from "../img/twitter.png";
+import stephanie from "../img/stephanie.png";
 
 function AllProject() {
   const navigate = useNavigate();
@@ -97,6 +98,14 @@ function AllProject() {
       desc: "Twitter Clone with Tweet feature using firebase database",
       link: "https://cong-twitter.vercel.app/",
       github: "https://github.com/ctadev/CongTwitter",
+    },
+    {
+      id: 11,
+      title: "Stephanie Holland Nail and Spa",
+      image: stephanie,
+      desc: "Landing Page for Stephanie Holland, I Freelance this website for a client",
+      link: "https://www.stephanienails.com/",
+      github: "https://github.com/ctadev/CongStephanieHolland",
     },
   ];
   return (
