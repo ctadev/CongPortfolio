@@ -11,6 +11,7 @@ import { useNavigate } from "react-router-dom";
 import disney from "../img/disneyClone.png";
 import twitter from "../img/twitter.png";
 import stephanie from "../img/stephanie.png";
+import linkedIn from '../img/linkedIn.png';
 
 function AllProject() {
   const navigate = useNavigate();
@@ -106,6 +107,14 @@ function AllProject() {
       desc: "Landing Page for Stephanie Holland, I Freelance this website for a client",
       link: "https://www.stephanienails.com/",
       github: "https://github.com/ctadev/CongStephanieHolland",
+    },
+    {
+      id: 12,
+      title: "LinkedIn Clone",
+      image: linkedIn,
+      desc: "LinkedIn clone with mongoDatabase, and Google Login",
+      link: "https://cong-linked-in-clone.vercel.app/",
+      github: "https://github.com/ctadev/CongLinkedIn-Clone",
     },
   ];
   return (

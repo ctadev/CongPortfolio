@@ -29,9 +29,9 @@
 
     .projects {
       background: linear-gradient(rgba(0, 0, 0, 0.741), rgba(0, 0, 0, 0.745)),
-        url("../img/games.png") center / cover no-repeat;
+        url("../img/linkedIn.png") center / cover no-repeat;
       width: 90%;
-      height: 500px;
+      height: 600px;
       display: flex;
       justify-content: flex-end;
       align-items: flex-end;
@@ -144,7 +144,7 @@
       .projects {
         width: 90%;
         background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-          url("../img/games.png") center / contain no-repeat;
+          url("../img/linkedIn.png") center / cover no-repeat;
         width: 555px;
         height: 400px;
         margin-right: 10rem;
@@ -183,7 +183,7 @@
       .projects {
         width: 90%;
         background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-          url("../img/games.png") center / contain no-repeat;
+          url("../img/linkedIn.png") center / cover no-repeat;
         height: 400px;
         width: 555px;
         margin-right: 25rem;

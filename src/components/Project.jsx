@@ -17,30 +17,30 @@ function Project() {
         </div>
         <div className="projects">
           <div className="project-card">
-            <h1>Games Search</h1>
+            <h1>LinkedIn Clone</h1>
             <div className="project-info">
               <p>
-                This website let you search any game available on the rawg.io
-                API database. It also has an add to favourite feature that will
-                be saved on the user localStorage.
+                LinkedIn Clone fullstack build using Nextjs framework with
+                mongoDatabase and google Login. This build has tweet and
+                comments features.
               </p>
             </div>
             <ul>
-              <li>React</li>
+              <li>Nextjs</li>
               <li>Sass</li>
               <li>Redux</li>
-              <li>RawgAPI</li>
+              <li>MongoDB</li>
             </ul>
             <div className="icons">
               <a
-                href="https://github.com/ctadev/CongGameLibrary"
+                href="https://github.com/ctadev/CongLinkedIn-Clone"
                 target="_blank"
                 rel="noreferrer"
               >
                 <i className="fab fa-github-square"></i>
               </a>
               <a
-                href="https://cong-game-library.vercel.app/"
+                href="https://cong-linked-in-clone.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -55,7 +55,8 @@ function Project() {
             <h1>Disney Clone</h1>
             <div className="project-info">
               <p>
-                My Disney Clone created using Nextjs with SeverSideRendering and authentication
+                My Disney Clone created using Nextjs with SeverSideRendering and
+                authentication
               </p>
             </div>
             <ul>
