@@ -11,7 +11,8 @@ import { useNavigate } from "react-router-dom";
 import disney from "../img/disneyClone.png";
 import twitter from "../img/twitter.png";
 import stephanie from "../img/stephanie.png";
-import linkedIn from '../img/linkedIn.png';
+import linkedIn from "../img/linkedIn.png";
+import airbnb from "../img/airbnb.png";
 
 function AllProject() {
   const navigate = useNavigate();
@@ -115,6 +116,14 @@ function AllProject() {
       desc: "LinkedIn clone with mongoDatabase, and Google Login",
       link: "https://cong-linked-in-clone.vercel.app/",
       github: "https://github.com/ctadev/CongLinkedIn-Clone",
+    },
+    {
+      id: 13,
+      title: "Airbnb Clone",
+      image: airbnb,
+      desc: "Airbnb clone with NextJs, Sass, MapBox",
+      link: "https://cong-air-bnb.vercel.app/",
+      github: "https://github.com/ctadev/CongAirBnb",
     },
   ];
   return (
