@@ -6,6 +6,17 @@
 
 html {
   scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: #00ffff rgba(66, 66, 66, 0.479);
+  &::-webkit-scrollbar{
+    width: 0.3vw;
+  }
+  &::-webkit-scrollbar-thumb{
+    background-color: #00ffff;
+  }
+  &::-webkit-scrollbar-track{
+    background-color: rgba(66, 66, 66, 0.452);
+  }
 }
 
 body {
