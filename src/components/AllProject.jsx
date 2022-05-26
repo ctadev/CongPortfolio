@@ -13,6 +13,7 @@ import twitter from "../img/twitter.png";
 import stephanie from "../img/stephanie.png";
 import linkedIn from "../img/linkedIn.png";
 import airbnb from "../img/airbnb.png";
+import mern from "../img/MERNBLOG.png";
 
 function AllProject() {
   const navigate = useNavigate();
@@ -124,6 +125,14 @@ function AllProject() {
       desc: "Airbnb clone with NextJs, Sass, MapBox",
       link: "https://cong-air-bnb.vercel.app/",
       github: "https://github.com/ctadev/CongAirBnb",
+    },
+    {
+      id: 14,
+      title: "Mern Stack Blog",
+      image: mern,
+      desc: "A blog website that has a full CRUD functionality that I created to practice my MongoDB skills",
+      link: "https://cong-mern-blog.vercel.app/",
+      github: "https://github.com/ctadev/CongMernBlog",
     },
   ];
   return (
