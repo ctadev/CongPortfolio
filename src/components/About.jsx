@@ -38,7 +38,7 @@ function About() {
               </div>
               <div>
                 <i className="fab fa-react"></i>
-                <p>ReactJS</p>
+                <p className="react_next">ReactJS/NextJS</p>
               </div>
               <div>
                 <i className="fab fa-js-square"></i>

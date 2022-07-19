@@ -7,7 +7,6 @@ function Project() {
     navigate("/projects");
   };
 
-
   return (
     <main className="project-container" id="project">
       <section className="inner-container">
@@ -84,30 +83,29 @@ function Project() {
 
         <div className="projects third">
           <div className="project-card">
-            <h1>Shopiies Ecommerces</h1>
+            <h1>Eevee's Clone by Cong</h1>
             <div className="project-info">
               <p>
-                An e-commerces site that will let you shop online with a modal
-                cart feature, rest api to display list of products and
-                localStorage database for the cart to persist on users website.
+                A complete e-commerce site clone that I did build on nextjs
+                frontend and CMS sanity io backend and stripe payments.
               </p>
             </div>
             <ul>
-              <li>React</li>
+              <li>React/NextJs</li>
               <li>Sass</li>
               <li>Redux</li>
-              <li>REST-API</li>
+              <li>Sanity Io</li>
             </ul>
             <div className="icons">
               <a
-                href="https://github.com/ctadev/CongEcommerce"
+                href="https://github.com/ctadev/CongEeveeClone"
                 target="_blank"
                 rel="noreferrer"
               >
                 <i className="fab fa-github-square"></i>
               </a>
               <a
-                href="https://cong-ecommerce.vercel.app/"
+                href="https://cong-eevee-clone.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
               >

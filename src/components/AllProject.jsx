@@ -14,6 +14,7 @@ import stephanie from "../img/stephanie.png";
 import linkedIn from "../img/linkedIn.png";
 import airbnb from "../img/airbnb.png";
 import mern from "../img/MERNBLOG.png";
+import eevee from "../img/eevee.png";
 
 function AllProject() {
   const navigate = useNavigate();
@@ -133,6 +134,14 @@ function AllProject() {
       desc: "A blog website that has a full CRUD functionality that I created to practice my MongoDB skills",
       link: "https://cong-mern-blog.vercel.app/",
       github: "https://github.com/ctadev/CongMernBlog",
+    },
+    {
+      id: 15,
+      title: "Eevee Clone",
+      image: eevee,
+      desc: "An e-commerce clone build using nextjs, sass, redux, stripe, cms sanity io backend",
+      link: "https://cong-eevee-clone.vercel.app/",
+      github: "https://github.com/ctadev/CongEeveeClone",
     },
   ];
   return (
