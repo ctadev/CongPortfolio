@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import certificate from "../img/certificate.svg";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function About() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   return (
     <main className="about-container" id="about">
       <section className="inner-container">
@@ -10,7 +16,7 @@ function About() {
           <span></span>
         </div>
         <div className="content">
-          <div className="desc">
+          <div className="desc" data-aos="fade">
             <p>
               I started programming in 2012 and got my computer programming
               diploma in College, ever since then I have been fasinated in
@@ -28,23 +34,23 @@ function About() {
             <img src={certificate} alt="certificate" />
             <h2>Skills</h2>
             <div className="skill-item">
-              <div>
+              <div data-aos="fade-right">
                 <i className="fab fa-html5"></i>
                 <p>HTML5</p>
               </div>
-              <div>
+              <div data-aos="fade-left">
                 <i className="fab fa-css3-alt"></i>
                 <p>CSS3</p>
               </div>
-              <div>
+              <div data-aos="fade-right">
                 <i className="fab fa-react"></i>
                 <p className="react_next">ReactJS/NextJS</p>
               </div>
-              <div>
+              <div data-aos="fade-left">
                 <i className="fab fa-js-square"></i>
                 <p>Javascript</p>
               </div>
-              <div>
+              <div data-aos="fade-right">
                 <i className="fab fa-sass"></i>
                 <p>Sass</p>
               </div>

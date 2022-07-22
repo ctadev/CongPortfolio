@@ -1,14 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Project() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   const navigate = useNavigate();
   const viewProjects = () => {
     navigate("/projects");
   };
 
   return (
-    <main className="project-container" id="project">
+    <main className="project-container" id="project" data-aos="zoom-in-down">
       <section className="inner-container">
         <div className="title">
           <h1>Projects</h1>
