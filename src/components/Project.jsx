@@ -22,30 +22,29 @@ function Project() {
         </div>
         <div className="projects">
           <div className="project-card">
-            <h1>LinkedIn Clone</h1>
+            <h1>Eevee's Clone by Cong</h1>
             <div className="project-info">
               <p>
-                LinkedIn Clone fullstack build using Nextjs framework with
-                mongoDatabase and google Login. This build has tweet and
-                comments features.
+                A complete e-commerce site clone that I did build on nextjs
+                frontend and CMS sanity io backend and stripe payments.
               </p>
             </div>
             <ul>
-              <li>Nextjs</li>
+              <li>React/NextJs</li>
               <li>Sass</li>
               <li>Redux</li>
-              <li>MongoDB</li>
+              <li>Sanity Io</li>
             </ul>
             <div className="icons">
               <a
-                href="https://github.com/ctadev/CongLinkedIn-Clone"
+                href="https://github.com/ctadev/CongEeveeClone"
                 target="_blank"
                 rel="noreferrer"
               >
                 <i className="fab fa-github-square"></i>
               </a>
               <a
-                href="https://cong-linked-in-clone.vercel.app/"
+                href="https://cong-eevee-clone.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -89,29 +88,30 @@ function Project() {
 
         <div className="projects third">
           <div className="project-card">
-            <h1>Eevee's Clone by Cong</h1>
+            <h1>LinkedIn Clone</h1>
             <div className="project-info">
               <p>
-                A complete e-commerce site clone that I did build on nextjs
-                frontend and CMS sanity io backend and stripe payments.
+                LinkedIn Clone fullstack build using Nextjs framework with
+                mongoDatabase and google Login. This build has tweet and
+                comments features.
               </p>
             </div>
             <ul>
-              <li>React/NextJs</li>
+              <li>Nextjs</li>
               <li>Sass</li>
               <li>Redux</li>
-              <li>Sanity Io</li>
+              <li>MongoDB</li>
             </ul>
             <div className="icons">
               <a
-                href="https://github.com/ctadev/CongEeveeClone"
+                href="https://github.com/ctadev/CongLinkedIn-Clone"
                 target="_blank"
                 rel="noreferrer"
               >
                 <i className="fab fa-github-square"></i>
               </a>
               <a
-                href="https://cong-eevee-clone.vercel.app/"
+                href="https://cong-linked-in-clone.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
               >
